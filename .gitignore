@@ -1,0 +1,114 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.sublime-project
+*.sublime-workspace
+
+# Laravel Backend
+apps/backend/.env
+apps/backend/.env.backup
+apps/backend/.phpunit.result.cache
+apps/backend/Homestead.json
+apps/backend/Homestead.yaml
+apps/backend/npm-debug.log
+apps/backend/yarn-error.log
+apps/backend/.phpstorm.meta.php
+apps/backend/_ide_helper.php
+apps/backend/storage/*.key
+apps/backend/.phpunit.cache
+
+# Laravel Directories
+apps/backend/node_modules/
+apps/backend/public/hot
+apps/backend/public/storage
+apps/backend/storage/*.log
+apps/backend/storage/framework/cache/*
+apps/backend/storage/framework/sessions/*
+apps/backend/storage/framework/views/*
+apps/backend/storage/logs/*
+apps/backend/bootstrap/cache/*
+apps/backend/vendor/
+
+# Next.js Frontend
+apps/frontend/.env*.local
+apps/frontend/.env.local
+apps/frontend/.env.development.local
+apps/frontend/.env.test.local
+apps/frontend/.env.production.local
+apps/frontend/.next/
+apps/frontend/out/
+apps/frontend/build/
+apps/frontend/dist/
+apps/frontend/.cache/
+
+# Frontend Dependencies & Build
+apps/frontend/node_modules/
+apps/frontend/npm-debug.log*
+apps/frontend/yarn-debug.log*
+apps/frontend/yarn-error.log*
+apps/frontend/.pnpm-debug.log*
+
+# Testing
+apps/backend/coverage/
+apps/frontend/coverage/
+*.test.js.snap
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Database
+*.sqlite
+*.sqlite-journal
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Backup Files
+*.backup
+*.bak
+*.old
+
+# Package Manager
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build Artifacts
+dist/
+build/
+out/
+
+# Misc
+.turbo
+.vercel
+*.tsbuildinfo
+next-env.d.ts
